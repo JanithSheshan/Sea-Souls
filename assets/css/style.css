@@ -457,6 +457,7 @@ h6 {
   transition: 0.5s;
   color: #fff;
   background: #1acc8d;
+  margin-bottom: 20px;
 }
 
 #hero .btn-get-started:hover {
@@ -476,10 +477,6 @@ h6 {
 @media (max-width: 991px) {
   #hero {
     padding-top: 80px;
-  }
-
-  #hero .animated {
-    animation: none;
   }
 
   #hero .hero-img {

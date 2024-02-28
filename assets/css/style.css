@@ -62,6 +62,15 @@ h6 {
   }
 }
 
+#hero .col-lg-7 .aos-animate {
+  border-radius: 30px;
+  background-color: #0000005e;
+  padding: 30px;
+  opacity: 1;
+  -webkit-transform: translateZ(0) scale(1);
+  transform: translateZ(0) scale(1);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -72,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: #1d782b;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -112,7 +121,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 136, 23, 0.9);
 }
 
 #header.header-transparent {
@@ -120,7 +128,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 136, 12, 0.9);
+  background: linear-gradient(to right, #000000, #268b53, #849c0a);
   height: 60px;
 }
 
@@ -343,13 +351,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #07a102;
+  color: #000000;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5ffd3f;
+  color: #025c0f;
 }
 
 .navbar-mobile .getstarted,
@@ -405,23 +413,25 @@ h6 {
 #hero {
   width: 100%;
   background: url("../img/hero-bg.jpg");
+  background-size: cover;
+  align-self: center;
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 100px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: #00800054;
+  background: #2e8d4d52;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} 
 
 #hero h1 {
   margin: 0 0 20px 0;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
@@ -434,7 +444,7 @@ h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 40px;
+  margin-bottom: 28px;
   font-size: 24px;
 }
 
@@ -448,7 +458,7 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: #318d4a;
   margin-bottom: 20px;
 }
 
@@ -466,9 +476,15 @@ h6 {
   }
 }
 
+@media (max-width: 1024px) {
+  #hero {
+    text-align: center;
+  }
+}
+
 @media (max-width: 991px) {
   #hero {
-    padding-top: 80px;
+    padding-top: 40px;
   }
 
   #hero .hero-img {
@@ -505,60 +521,6 @@ h6 {
 
   100% {
     transform: translateY(-10px);
-  }
-}
-
-.hero-waves {
-  display: block;
-  margin-top: 60px;
-  width: 100%;
-  height: 60px;
-  z-index: 5;
-  position: relative;
-}
-
-.wave1 use {
-  animation: move-forever1 10s linear infinite;
-  animation-delay: -2s;
-}
-
-.wave2 use {
-  animation: move-forever2 8s linear infinite;
-  animation-delay: -2s;
-}
-
-.wave3 use {
-  animation: move-forever3 6s linear infinite;
-  animation-delay: -2s;
-}
-
-@keyframes move-forever1 {
-  0% {
-    transform: translate(85px, 0%);
-  }
-
-  100% {
-    transform: translate(-90px, 0%);
-  }
-}
-
-@keyframes move-forever2 {
-  0% {
-    transform: translate(-90px, 0%);
-  }
-
-  100% {
-    transform: translate(85px, 0%);
-  }
-}
-
-@keyframes move-forever3 {
-  0% {
-    transform: translate(-90px, 0%);
-  }
-
-  100% {
-    transform: translate(85px, 0%);
   }
 }
 
@@ -739,7 +701,6 @@ section {
 
 .about .video-box {
   background: url("../img/about.png") center center no-repeat;
-  position: static;
   background-size: contain;
   min-height: 300px;
 }
@@ -752,8 +713,7 @@ section {
   display: block;
   margin-top: 130px;
   position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
+  margin-top: -100px;
   overflow: hidden;
 }
 
@@ -788,7 +748,7 @@ section {
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
-}
+} 
 
 .about .play-btn:hover::after {
   border-left: 15px solid #a8e4a0;
@@ -837,7 +797,7 @@ section {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 414px) {
   .about .play-btn {
     margin-top: -80px;
     width: 50px;
@@ -850,6 +810,18 @@ section {
   }
 }
 
+@media (max-width: 820px) {
+  .about .play-btn {
+    margin-top: -100px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .about .play-btn::before {
+    width: 71px;
+    height: 71px;
+  }
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -917,7 +889,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1acc8d;
+  background: #207647;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -975,6 +947,11 @@ section {
   margin-bottom: 0;
 }
 
+.details .img-fluid {
+  max-width: auto;
+  height: 50%;
+}
+
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
@@ -1010,7 +987,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 111, 19, 0.76);
+  background: linear-gradient(to right, #0000007e, #268b5385, #849c0a7c);
 }
 
 .testimonials .section-header {
@@ -1207,7 +1184,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #1acc8d;
+  color: #0d1613;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1257,7 +1234,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #1acc8d;
+  background: #258952;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1276,7 +1253,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #1acc8d;
+  background: #258952;
 }
 
 .pricing .advanced {
@@ -1489,7 +1466,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background: #018337;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1498,7 +1475,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
+  background: #0aa72c;
 }
 
 @keyframes animate-loading {
@@ -1515,7 +1492,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #015120;
+  background: linear-gradient(to right, #000000, #268b53, #849c0a);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;

@@ -62,15 +62,6 @@ h6 {
   }
 }
 
-#hero .col-lg-7 .aos-animate {
-  border-radius: 30px;
-  background-color: #0000005e;
-  padding: 30px;
-  opacity: 1;
-  -webkit-transform: translateZ(0) scale(1);
-  transform: translateZ(0) scale(1);
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -414,20 +405,19 @@ h6 {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   background-size: cover;
-  align-self: center;
   position: relative;
   padding: 100px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: #2e8d4d52;
+  background: linear-gradient(to right, #000000d5, #268b537a, #849c0a77);;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} 
 
 #hero h1 {
   margin: 0 0 20px 0;
@@ -478,7 +468,7 @@ h6 {
 
 @media (max-width: 1024px) {
   #hero {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -865,6 +855,103 @@ section {
 } */
 
 /*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+.services img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.services .container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.services .mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.services .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.services .prev,
+.services .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.services .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.services .prev:hover,
+.services .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.services .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.services .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.services .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.services .column {
+  float: left;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.services .demo {
+  opacity: 0.6;
+}
+
+.services .active,
+.services .demo:hover {
+  opacity: 1;
+}
+
+.services video {
+  
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
@@ -910,43 +997,6 @@ section {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Details
---------------------------------------------------------------*/
-.details .content+.content {
-  margin-top: 100px;
-}
-
-.details .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-  color: #018312;
-}
-
-.details .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.details .content ul li {
-  padding-bottom: 10px;
-}
-
-.details .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #1acc8d;
-}
-
-.details .content p:last-child {
-  margin-bottom: 0;
-}
-
-.details .img-fluid {
-  max-width: auto;
-  height: 50%;
 }
 
 /*--------------------------------------------------------------

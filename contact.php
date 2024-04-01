@@ -6,10 +6,10 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $subjectnew = $_POST['subjectnew'];
 $message = $_POST['message'];
-$to = "jasheshan011@gmail.com";
+$to = "seasoulssrilanka@gmail.com";
 $subject = "Mail From website:";
 $txt = "Name: " . $name . "\n\nEmail: " . $email . "\n\nSubject: " . $subjectnew . "\n\nMessage:\n" . $message;
-$headers = "From: noreply@SeaSoulsDiving";
+$headers = "From: noreply@SeaSoulsDiving.com";
 
 if ($email != NULL) {
     if (mail($to, $subject, $txt, $headers)) {

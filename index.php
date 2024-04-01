@@ -213,7 +213,7 @@ if (isset($_SESSION['error_message'])) {
           </div>
       </div>
     </section><!-- End Services Section -->
-    
+    <div id="preloader"></div>
     <!-- ======= Details Section ======= -->
     <section id="divesite" class="services">
       <div class="container">
@@ -758,7 +758,6 @@ if (isset($_SESSION['error_message'])) {
       </script>
     </div>
   </a>
-  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>

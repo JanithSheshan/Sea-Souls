@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+if (isset($_SESSION['success_message'])) {
+    echo "<script>alert('" . $_SESSION['success_message'] . "');</script>";
+    unset($_SESSION['success_message']);
+}
+
+if (isset($_SESSION['error_message'])) {
+    echo "<script>alert('" . $_SESSION['error_message'] . "');</script>";
+    unset($_SESSION['error_message']);
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,12 +26,12 @@
 
   <meta property="og:title" content="Sea Souls | Diving Instructor">
   <meta property="og:description" content="Dive into the depths with Salin, your expert diving instructor, and discover a world beneath the waves like never before. Whether you're a novice seeking guidance or a seasoned diver looking to enhance your skills, Salin provides tailored training and unforgettable underwater experiences. Join Salin on an adventure beneath the surface and unlock the wonders of the ocean together.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/JanithSheshan/Sea-Souls/main/assets/img/logo.png?token=GHSAT0AAAAAACPWC6KW77OJWHTL65XQP4PSZQIMI6A">
+  <meta property="og:image" content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.png">
   <meta property="og:url" content="Sea Souls | Scuba Diving Instructor">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/favicon.png" rel="icon">
+  <link href="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -44,7 +59,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        <!-- <a href="index.html"><img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.png" alt="" class="img-fluid"></a> -->
         <h1><a href="index.html"><span>Sea Souls</span></a></h1>
       </div>
 
@@ -87,7 +102,7 @@
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="30">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/hero-img.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -148,7 +163,7 @@
           <div class="col-lg-3 col-md-4 text-center">
             <div class="popup" onclick="myFunction1()">
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
-                <img src = "assets/svg/Fun Diving.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
+                <img src = "https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Fun%20Diving.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
                 <h3>Fun Diving</h3>
               </div>
               <span class="popuptext" id="myPopup1">Fun diving is recreational underwater exploration for certified divers. It's about enjoying the beauty of the underwater 
@@ -161,7 +176,7 @@
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0 text-center">
             <div class="popup" onclick="myFunction2()">
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
-                <img src = "assets/svg/Surfing.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
+                <img src = "https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Surfing.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
                 <h3>Surfing</h3>
               </div>
               <span class="popuptext" id="myPopup2">Surfing involves riding waves on a board, requiring skillful balance and agility while harnessing the energy of the ocean. 
@@ -174,7 +189,7 @@
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0 text-center">
             <div class="popup" onclick="myFunction3()">
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
-                <img src = "assets/svg/Diving Tours.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
+                <img src = "https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Diving%20Tours.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
                 <h3>Diving Tours</h3>
               </div>
               <span class="popuptext" id="myPopup3">Diving tours provide guided exploration of underwater realms, offering certified divers immersive experiences in diverse marine ecosystems. 
@@ -187,7 +202,7 @@
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0 text-center">
             <div class="popup" onclick="myFunction4()">
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
-                <img src = "assets/svg/Diving Courses.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
+                <img src = "https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Diving%20Courses.svg" alt="Fun Diving"style="color: #ffbb2c; width: auto; height: 50px;"/>
                 <h3>Diving Courses</h3>
               </div>
               <span class="popuptext" id="myPopup4">Diving courses provide essential skills and knowledge under certified instructors, 
@@ -210,7 +225,7 @@
         <div>
         
         <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="myVideo">
-          <source src="assets/img/divingsites.mp4" type="video/mp4">
+          <source src="./divingsites.mp4" type="video/mp4">
         </video>
       </div>
 
@@ -234,79 +249,79 @@
             <div class="swiper-container mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-1.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im image-block" src="assets/img/gallery/gallery-2.jpg">
+                  <img class="im image-block" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-3.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-4.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-5.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-6.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-7.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-8.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-9.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-10.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-11.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-12.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-13.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-14.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-15.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-16.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-17.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-18.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-19.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-20.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-21.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-22.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-23.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-24.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-24.jpg">
                 </div>
                 <div class="swiper-slide">
-                  <img class="im" src="assets/img/gallery/gallery-25.jpg">
+                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-25.jpg">
                 </div>
               </div>
               <div class="swiper-pagination container-block">
@@ -326,7 +341,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
                 <h4>Passionate Diver</h4>
                 <p>
@@ -339,7 +354,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Adventurous Explorer</h4>
                 <p>
@@ -352,7 +367,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Nature Enthusiast</h4>
                 <p>
@@ -365,7 +380,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Nature Enthusiast</h4>
                 <p>
@@ -378,7 +393,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Adventurous Explorer</h4>
                 <p>
@@ -622,7 +637,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>Seasoulssrilanka@gmail.com</p>
+                <p>seasoulssrilanka@gmail.com</p>
               </div>
 
               <a href="https://wa.me/94715812982" target="_blank"><div class="phone">
@@ -637,28 +652,23 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="20">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <form action="contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subjectnew" id="subjectnew" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
 
           </div>
 
@@ -681,7 +691,7 @@
               <p class="pb-3"><em>Scuba Diving Instructor <br> (OWSI #445838) | Learn to scuba dive, Explore underwater world...</em></p>
               <p>
                 <strong>Phone:</strong> +94 71 581 2982<br>
-                <strong>Email:</strong> Seasoulssrilanka@gmail.com<br>
+                <strong>Email:</strong> seasoulssrilanka@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

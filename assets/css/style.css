@@ -464,7 +464,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0 0 0;
@@ -472,7 +472,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: linear-gradient(to right, #000000d5, #268b537a, #849c0a77);;
+  /* background: linear-gradient(to right, #000000d5, #268b537a, #849c0a77); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -689,7 +689,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/about.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -940,6 +940,20 @@ section {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+@media (max-width: 992px) {
+  .features .row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .features .mt-4 {
+    margin-top: 0px !important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1399,7 +1413,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/cta-bg.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/cta-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1717,7 +1731,7 @@ section {
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 10px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -1725,7 +1739,7 @@ section {
 }
 
 .contact .info p {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 10px;
   margin-bottom: 0;
   font-size: 14px;
   color: #07a102;

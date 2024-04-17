@@ -39,13 +39,13 @@ if (isset($_SESSION['error_message'])) {
   <!-- Vendor CSS Files -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"/>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -139,8 +139,7 @@ if (isset($_SESSION['error_message'])) {
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="30">
               <div class="icon"><i class='bx bx-check-shield'></i></div>
               <h4 class="title">Why Dive With Me</h4>
-              <p class="description">As a laid-back and friendly individual, I bring a relaxed vibe to every dive, ensuring you feel safe, comfortable, and ready to dive into adventure. Whether you're a beginner seeking your first underwater experience or a seasoned diver looking to explore new depths, I'm here to make every dive unforgettable.
-</p>
+              <p class="description">As a laid-back and friendly individual, I bring a relaxed vibe to every dive, ensuring you feel safe, comfortable, and ready to dive into adventure. Whether you're a beginner seeking your first underwater experience or a seasoned diver looking to explore new depths, I'm here to make every dive unforgettable.</p>
             </div>
     
           </div>
@@ -222,82 +221,71 @@ if (isset($_SESSION['error_message'])) {
           <h2>Diving Areas</h2>
           <p>Explore Our Diving sites</p>
         </div>
-      <div>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide swiper-slide--one">
-                <span>Trincomalee</span>
-                <div>
-                  <h2>Pristine sands, swaying palms, turquoise waters, serenity found.</h2>
-                  <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                    Trincomalee, Eastern Province, Sri Lanka
-                  </p>
-                </div>
-              </div>
-              <div class="swiper-slide swiper-slide--two">
-                <span>Nilaveli</span>
-                <div>
-                  <h2>Pristine sands, turquoise waters, swaying palms.</h2>
-                  <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                    Trincomalee, Eastern Province, Sri Lanka
-                  </p>
-                </div>
-              </div>
 
-              <div class="swiper-slide swiper-slide--three">
-                <span>Mirissa</span>
-                <div>
-                  <h2>Soft sand, clear water, whale watching, surfing waves.</h2>
-                  <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                    Matara, Southern Province, Sri Lanka
-                  </p>
-                </div>
-              </div>
 
-              <div class="swiper-slide swiper-slide--four">
-                <span>Unawatuna</span>
-                <div>
-                  <h2>Pristine sand, turquoise water, swaying palms.</h2>
-                  <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                    Galle, Southern Province, Sri Lanka
-                  </p>
+        <div class="options">
+          <div class="option active" style="--optionBackground:url(https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/details-11.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+                <div class="icon">
+                  <i class="bi-pin-map-fill"></i>
                 </div>
-              </div>
-
-              <div class="swiper-slide swiper-slide--five">
-                <span>Hikkaduwa</span>
-                <div>
-                  <h2>Golden sands, turquoise waters, swaying palms.</h2>
-                  <p>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                    Galle, Southern Province, Sri Lanka
-                  </p>
+                <div class="info">
+                  <div class="main">Trincomalee</div>
+                  <div class="sub">Trincomalee, Eastern Province, Sri Lanka</div>
                 </div>
-              </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
           </div>
+          <div class="option" style="--optionBackground:url(https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/details-22.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+                <div class="icon">
+                  <i class="bi-pin-map-fill"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Nilaveli</div>
+                  <div class="sub">Trincomalee, Eastern Province, Sri Lanka</div>
+                </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground:url(https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/details-33.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+                <div class="icon">
+                  <i class="bi-pin-map-fill"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Mirissa</div>
+                  <div class="sub">Matara, Southern Province, Sri Lanka</div>
+                </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground:url(https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/details-44.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+                <div class="icon">
+                  <i class="bi bi-pin-map-fill"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Unawatuna</div>
+                  <div class="sub">Galle, Southern Province, Sri Lanka</div>
+                </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground:url(https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/details-55.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+                <div class="icon">
+                  <i class="bi-pin-map-fill"></i>
+                </div>
+                <div class="info">
+                  <div class="main">Hikkaduwa</div>
+                  <div class="sub">Galle, Southern Province, Sri Lanka</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section><!-- End Divesite Section -->
     
 
@@ -310,7 +298,52 @@ if (isset($_SESSION['error_message'])) {
           <p>Check our Gallery</p>
         </div>
 
-        
+        <div class="slider-wrapper">
+          <button id="prev-slide" class="slide-button material-symbols-rounded">
+            chevron_left
+          </button>
+          <ul class="image-list">
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.jpg" alt="img-1" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.jpg" alt="img-2" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.jpg" alt="img-3" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.jpg" alt="img-4" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.jpg" alt="img-5" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.jpg" alt="img-6" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.jpg" alt="img-7" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.jpg" alt="img-8" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.jpg" alt="img-9" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.jpg" alt="img-10" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.jpg" alt="img-11" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.jpg" alt="img-12" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.jpg" alt="img-13" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.jpg" alt="img-14" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.jpg" alt="img-15" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.jpg" alt="img-16" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.jpg" alt="img-17" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.jpg" alt="img-18" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.jpg" alt="img-19" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.jpg" alt="img-20" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.jpg" alt="img-21" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.jpg" alt="img-22" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.jpg" alt="img-23" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-24.jpg" alt="img-24" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-25.jpg" alt="img-25" data-category="diving"/>
+          </ul>
+          <button id="next-slide" class="slide-button material-symbols-rounded">
+            chevron_right
+          </button>
+        </div>
+        <div>
+          <button class="show-all" id="show-all">ALL</button>
+          <button class="category-button" data-category="courses">COURSES</button>
+          <button class="category-button" data-category="diving">DIVING</button>
+          <button class="category-button" data-category="creatures">CREATURES</button>
+        </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
 
         <!-- <div class="gallery" unique-script-id="w-w-dm-id">
           <div class="responsive-container-block bg">
@@ -402,7 +435,7 @@ if (isset($_SESSION['error_message'])) {
     </section><!-- End Gallery Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="10">
@@ -419,9 +452,10 @@ if (isset($_SESSION['error_message'])) {
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
@@ -432,9 +466,10 @@ if (isset($_SESSION['error_message'])) {
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
@@ -445,9 +480,10 @@ if (isset($_SESSION['error_message'])) {
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
@@ -458,9 +494,10 @@ if (isset($_SESSION['error_message'])) {
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
@@ -471,14 +508,16 @@ if (isset($_SESSION['error_message'])) {
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-          </div>
+          <!-- </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= courses Section ======= -->
     <section id="courses" class="pricing">
@@ -874,16 +913,17 @@ if (isset($_SESSION['error_message'])) {
       </script>
     </div>
   </a>
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script type="text/javascript" async src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 

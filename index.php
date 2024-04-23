@@ -108,7 +108,7 @@ if (isset($_SESSION['error_message'])) {
     </div>
   </section><!-- End Hero -->
 
-  <a href="https://wa.me/94715812982" target="_blank"><button class="fixedbtn"><i class="bi bi-whatsapp"></i></button></a>
+  <a href="https://wa.me/94715812982" target="_blank"><button class="fixedbtn"><i class="bi bi-whatsapp"></i><p>Chat_Now</p></button></a>
 
   <main id="main">
     <!-- ======= About Section ======= -->
@@ -345,178 +345,20 @@ if (isset($_SESSION['error_message'])) {
           </div>
         </div>
 
-        <!-- <div class="gallery" unique-script-id="w-w-dm-id">
-          <div class="responsive-container-block bg">
-           
-            <div class="swiper-container mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im image-block" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-24.jpg">
-                </div>
-                <div class="swiper-slide">
-                  <img class="im" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-25.jpg">
-                </div>
-              </div>
-              <div class="swiper-pagination container-block">
-              </div>
-            </div>
-          </div> 
-        </div>-->
       </div>
     </section><!-- End Gallery Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials">
       <div class="container">
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="10">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Passionate Diver</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  My diving experience with Sea Souls has been absolutely amazing! The instructors are knowledgeable, friendly, and always prioritize safety. I've explored breathtaking underwater landscapes and encountered fascinating marine life. Highly recommend!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Adventurous Explorer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Sea Souls provided me with an unforgettable diving experience. The instructors are highly skilled and made me feel comfortable throughout my dives. Exploring the underwater world has been a dream come true. Can't wait to dive with them again!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Nature Enthusiast</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Diving with Sea Souls has been an incredible experience. The instructors are passionate about marine conservation and share their knowledge with enthusiasm. I've learned so much about marine life and ocean ecosystems while diving with them.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Nature Enthusiast</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Diving with Sea Souls has been an incredible experience. The instructors are passionate about marine conservation and share their knowledge with enthusiasm. I've learned so much about marine life and ocean ecosystems while diving with them.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Adventurous Explorer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Sea Souls provided me with an unforgettable diving experience. The instructors are highly skilled and made me feel comfortable throughout my dives. Exploring the underwater world has been a dream come true. Can't wait to dive with them again!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div> -->
-            <!-- End testimonial item -->
-
-          <!-- </div>
-          <div class="swiper-pagination"></div>
+        <div class="section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>What our clients say</p>
         </div>
 
       </div>
-    </section> -->
+    </section>
     <!-- End Testimonials Section -->
 
     <!-- ======= courses Section ======= -->
@@ -532,33 +374,39 @@ if (isset($_SESSION['error_message'])) {
     
           <!-- <div class="col-lg-3 col-md-6">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="10">
-              <h3></h3>
-               <h4>Starting from <sup>$</sup>80</h4>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+              <h3>Sample</h3>
+                <h4>Starting from <sup>$</sup>80</h4>
               <div class="btn-wrap">
                 <a href="https://wa.me/94715812982" target="_blank" class="btn-buy">Chat Now</a>
               </div>
             </div>
-          </div> -->
+          </div>  -->
     
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="20">
               <h3>PADI COURSES</h3>
               <!-- <h4>Starting from <sup>$</sup>350</h4> -->
-              <ul>
-                <li>Open Water Diver </li>
-                <li>Advanced Open Water Diver</li>
-                <li>Emergency First Response(EFR)</li>
-                <li>Rescue Diver</li>
-                <li>Divemaster</li>
-                <li><br></li>
-              </ul>
+
+              <details>
+                <summary>Open Water Diver</summary>
+                <p>Begin your underwater exploration with Sea Souls in Sri Lanka! Dive into the world's most popular scuba course, designed for beginners seeking adventure beneath the waves. Earn your first scuba diving certification and discover the mesmerizing beauty of the ocean depths!</p>
+              </details>
+              <details>
+                <summary>Advanced Open Water Diver</summary>
+                <p>Dive deeper into adventure with Sea Souls in Sri Lanka! Experience the thrill of exploration and expand your diving skills with the PADI Advanced Open Water Diver course. Designed for qualified divers, this course offers a gateway to new experiences and excitement beneath the waves. Build upon your Open Water Diver certification and elevate your diving expertise with us!</p>
+              </details>
+              <details>
+                <summary>Emergency First Response(EFR)</summary>
+                <p>Unlock life-saving skills with Sea Souls in Sri Lanka! Become an Emergency First Response (EFR) Instructor and empower others with essential CPR and first aid knowledge. Our internationally recognized courses are open to all, ensuring everyone can learn to respond effectively in emergencies.</p>
+              </details>
+              <details>
+                <summary>Rescue Diver</summary>
+                <p>Elevate your diving skills with Sea Souls in Sri Lanka! Join us for the PADI Rescue Diver course, hailed as both challenging and immensely rewarding by scuba enthusiasts. Take your qualification to new heights and become a certified rescue diver with us!</p>
+              </details>
+              <details>
+                <summary>Divemaster</summary>
+                <p>Passionate about scuba diving? Ready to take it to the next level? Dive into the PADI Divemaster course with Sea Souls in Sri Lanka! Become a leader in the diving community, guiding and inspiring others to explore the underwater world. Experience the thrill of sharing your love for diving while enjoying countless underwater adventures as a certified Divemaster!</p>
+              </details>
               <div class="btn-wrap">
                 <a href="https://wa.me/94715812982" target="_blank" class="btn-buy">Chat Now</a>
               </div>
@@ -569,32 +417,68 @@ if (isset($_SESSION['error_message'])) {
             <div class="box featured" data-aos="zoom-in" data-aos-delay="30">
               <h3>DISCOVERY DIVING FOR BEGGINERS</h3>
               <!-- <h4>Starting from <sup>$</sup>250</h4> -->
-              <ul>
-                <li>Fun Diving</li>
-                <li>Diving Tour</li>
-                <li>Snorkaling</li>
-                <li>Surfing</li>
-                <li><br></li>
-                <li><br></li>
-              </ul>
+              <details>
+                <summary>Introduction to Scuba Gear</summary>
+                <p>You'll receive an introduction to scuba gear and learn how to use it in a pool or calm water environment. This includes getting fitted with essential equipment like a mask, fins, and a buoyancy control device (BCD).</p>
+              </details>
+              <details>
+                <summary>Basic Scuba Skills</summary>
+                <p>A PADI Professional will guide you through some fundamental diving skills, such as how to clear your mask and regulator, equalize your ears, and communicate underwater using hand signals. These skills are essential for a safe and enjoyable diving experience.</p>
+              </details>
+              <details>
+                <summary>First Underwater Breaths</summary> 
+                <p>Experience the thrill of taking your first breaths underwater! Under the guidance of your instructor, you'll learn to breathe comfortably from a scuba regulator and acclimate to the sensation of being submerged.</p>
+              </details>
+              <details>
+                <summary>Exploration and Fun</summary> 
+                <p>Once you've mastered the basic skills, you'll have the opportunity to explore the underwater world and enjoy the freedom of swimming beneath the surface. This part of the experience allows you to interact with marine life and discover the beauty of the underwater environment.</p>
+              </details>
+              <details>
+                <summary>No Prerequisites</summary> 
+                <p>The Discover Scuba Diving program is open to anyone aged 10 and above, with no prior diving experience required. Whether you're a curious beginner or looking for a new adventure, this introductory course welcomes participants of all backgrounds.</p>
+              </details>
+              <details>
+                <summary>Total Time Commitment</summary> 
+                <p>The entire Discover Scuba Diving experience typically takes 2-3 hours, making it an accessible and convenient way to try scuba diving. During this time, you'll receive personalized instruction and guidance from a certified PADI Professional.</p>
+              </details>
+              <details>
+                <summary>Non-Certification Course</summary> 
+                <p>Discover Scuba Diving is a non-certification course designed to provide a taste of scuba diving under the supervision of a qualified instructor. While it doesn't result in a certification, it serves as a stepping stone for those interested in pursuing further training, such as the PADI Open Water Diver certification.</p>
+              </details>
               <div class="btn-wrap">
                 <a href="https://wa.me/94715812982" target="_blank" class="btn-buy">Chat Now</a>
               </div>
             </div>
           </div>
     
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="40">
               <h3>FUN DIVING</h3>
               <!-- <h4>Starting from <sup>$</sup>400</h4> -->
-              <ul>
-                <li>Deep Diving</li>
-                <li>Reef Diving</li>
-                <li>Wreck Diving</li>
-                <li>Cave Diving</li>
-                <li>Pinnacle Diving</li>
-                <li>Night Diving</li>
-              </ul>
+              <details>
+                <summary>Deep Diving</summary>
+                <p>Dive into the depths of adventure with our Deep Diving experience! Discover hidden treasures and encounter fascinating marine life as you explore the mysteries of the deep.</p>
+              </details>
+              <details>
+                <summary>Reef Diving</summary>
+                <p>Delve into the vibrant ecosystems of our Reef Diving sites! Encounter colorful corals, darting fish, and a kaleidoscope of marine creatures as you glide through the enchanting underwater landscapes.</p>
+              </details>
+              <details>
+                <summary>Wreck Diving</summary>
+                <p>Uncover the secrets of history with our Wreck Diving expeditions! Explore sunken ships and submerged relics, each with its own story to tell, as you venture into the realm of underwater archaeology.</p>
+              </details>
+              <details>
+                <summary>Cave Diving</summary>
+                <p>Embark on an exhilarating journey through the unknown with our Cave Diving excursions! Navigate through intricate passageways and marvel at the otherworldly formations of submerged caves.</p>
+              </details>
+              <details>
+                <summary>Pinnacle Diving</summary>
+                <p>Reach new heights of excitement with our Pinnacle Diving adventures! Ascend towering underwater peaks and witness the teeming life that congregates around these natural underwater landmarks.</p>
+              </details>
+              <details>
+                <summary>Night Diving</summary>
+                <p>Experience the magic of the ocean after dark with our Night Diving escapades! Witness the transformation of the underwater world as nocturnal creatures emerge and the reef comes alive under the glow of your dive light.</p>
+              </details>
               <div class="btn-wrap">
                 <a href="https://wa.me/94715812982" target="_blank" class="btn-buy">Chat Now</a>
               </div>
@@ -849,11 +733,11 @@ if (isset($_SESSION['error_message'])) {
                 <strong>Email:</strong> seasoulssrilanka@gmail.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://youtube.com/@Salin989?si=LH0suNt3hLkvOlvt" class="youtube"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064441372182&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/explore_the_ocean_with_sali?igsh=MWR4emVqem5naGw1ag==" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://wa.me/94715812982" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#" class="tiktok"><i class="bx bxl-tiktok"></i></a>
               </div>
             </div>
           </div>
@@ -913,7 +797,7 @@ if (isset($_SESSION['error_message'])) {
       </script>
     </div>
   </a>
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
 
   <!-- Vendor JS Files -->
   <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>

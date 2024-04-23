@@ -157,6 +157,10 @@ h6 {
   opacity: 1;
 }
 
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
 .fixedbtn {
   display: flex;
   position: fixed;
@@ -171,6 +175,31 @@ h6 {
   right: 0px;
   bottom: 50%;
   z-index: 1001;
+}
+
+.fixedbtn:hover {
+  background-color: #2bbe0d;
+  color: #fff;
+}
+
+.fixedbtn p {
+  visibility: hidden;
+  display: none;
+}
+
+.fixedbtn:hover p {
+  visibility: visible;
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  background-color: #018308;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  z-index: 1001;
+  transition: 0.5s;
 }
 
 @media (max-width: 991px) {
@@ -1251,7 +1280,7 @@ section {
   }
   
   .gallery .slider-wrapper .image-list .image-item {
-    width: 325px;
+    width: auto;
     height: 400px;
     object-fit: cover;
   }
@@ -1316,7 +1345,7 @@ section {
     }
   
     .gallery .slider-wrapper .image-list .image-item {
-      width: 280px;
+      width: auto;
       height: 380px;
     }
   
@@ -1437,6 +1466,12 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around;
+}
+
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1445,6 +1480,19 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+}
+
+.pricing .row p {
+  font-size: 14px;
+}
+
+.pricing summary {
+  font-style: oblique;
+  margin: 5px 0px 0px 0px;
+}
+
+.pricing summary::marker {
+  font-size: small !important;
 }
 
 .pricing h3 {

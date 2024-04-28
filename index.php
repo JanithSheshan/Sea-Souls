@@ -61,6 +61,13 @@ if (isset($_SESSION['error_message'])) {
       <div class="logo">
         <!-- <a href="index.html"><img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.png" alt="" class="img-fluid"></a> -->
         <h1><a href="index.html"><span>Sea Souls</span></a></h1>
+        <div class="social-links mt-3">
+                <a href="https://youtube.com/@Salin989?si=LH0suNt3hLkvOlvt" class="youtube"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064441372182&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/explore_the_ocean_with_sali?igsh=MWR4emVqem5naGw1ag==" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://wa.me/94715812982" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@seasouls0" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+              </div>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -356,7 +363,7 @@ if (isset($_SESSION['error_message'])) {
           <h2>Testimonials</h2>
           <p>What our clients say</p>
         </div>
-
+        <div class="elfsight-app-b76d2501-9b18-44c0-9b57-b4dfba036725" data-elfsight-app-lazy></div>
       </div>
     </section>
     <!-- End Testimonials Section -->
@@ -737,7 +744,7 @@ if (isset($_SESSION['error_message'])) {
                 <a href="https://www.facebook.com/profile.php?id=100064441372182&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/explore_the_ocean_with_sali?igsh=MWR4emVqem5naGw1ag==" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="https://wa.me/94715812982" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-                <a href="#" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+                <a href="https://www.tiktok.com/@seasouls0" class="tiktok"><i class="bx bxl-tiktok"></i></a>
               </div>
             </div>
           </div>
@@ -809,6 +816,8 @@ if (isset($_SESSION['error_message'])) {
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
   <script type="text/javascript" async src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- Template Main JS File -->
@@ -817,3 +826,4 @@ if (isset($_SESSION['error_message'])) {
 </body>
 
 </html>
+

@@ -565,20 +565,26 @@ h6 {
 } 
 
 #hero h1 {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.35);
   margin: 0 0 20px 0;
   font-size: 32px;
   font-weight: 700;
   line-height: 56px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 #hero h1 span {
-  color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  color: #ffffffc4;
+  border-bottom: 4px solid #1acc23;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.35);
+  color: rgb(255, 255, 255);
   margin-bottom: 28px;
   font-size: 24px;
 }

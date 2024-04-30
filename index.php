@@ -229,7 +229,7 @@ if (isset($_SESSION['error_message'])) {
           <p>Explore Our Diving sites</p>
         </div>
 
-
+        <div class="containertwo">
         <div class="options">
           <div class="option active" style="--optionBackground:url(https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/details-11.jpg);">
             <div class="shadow"></div>
@@ -291,6 +291,7 @@ if (isset($_SESSION['error_message'])) {
                 </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section><!-- End Divesite Section -->
@@ -364,6 +365,7 @@ if (isset($_SESSION['error_message'])) {
           <p>What our clients say</p>
         </div>
         <div class="elfsight-app-b76d2501-9b18-44c0-9b57-b4dfba036725" data-elfsight-app-lazy></div>
+        <!-- <div class="elfsight-app-c974434e-76f5-4eb5-b0ef-05ab4bc2408d" data-elfsight-app-lazy></div> -->
       </div>
     </section>
     <!-- End Testimonials Section -->

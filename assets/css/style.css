@@ -166,14 +166,10 @@ h6 {
   position: fixed;
   text-align: start;
   font-size: 20px;
-  background-color: #018308;
-  border-color: white;
-  border-width: 0px;
-  border-radius: 50px 0 0 50px;
-  width: 5%;
+  border-radius: 50%;
+  margin: 10px;
   color: #fff;
   right: 0px;
-  bottom: 50%;
   z-index: 1001;
 }
 
@@ -193,43 +189,12 @@ h6 {
   position: absolute;
   right: 100%;
   top: 50%;
-  background-color: #018308;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
   font-size: 12px;
   z-index: 1001;
   transition: 0.5s;
-}
-
-@media (max-width: 991px) {
-  .fixedbtn {
-    width: 6%;
-  }
-}
-
-@media (max-width: 767px) {
-  .fixedbtn {
-    width: 7%;
-  }
-}
-
-@media (max-width: 575px) {
-  .fixedbtn {
-    width: 8%;
-  }
-}
-
-@media (max-width: 377px) {
-  .fixedbtn {
-    width: 10%;
-  }
-}
-
-@media (max-width: 300px) {
-  .fixedbtn {
-    width: 12%;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -548,7 +513,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/hero-bg.jpg") center center no-repeat;
+  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/hero-bg.webp") center center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0 0 0;
@@ -779,7 +744,7 @@ section {
 }
 
 .about .video-box {
-  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/about.png") center center no-repeat;
+  background: url("https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/about.webp") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }

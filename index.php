@@ -314,31 +314,38 @@ if (isset($_SESSION['error_message'])) {
             chevron_left
           </button>
           <ul class="image-list">
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.webp" alt="img-2" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.webp" alt="img-3" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.webp" alt="img-4" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.webp" alt="img-5" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.webp" alt="img-6" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.webp" alt="img-7" data-category="creatures"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.webp" alt="img-8" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.webp" alt="img-9" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.webp" alt="img-10" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.webp" alt="img-11" data-category="creatures"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.webp" alt="img-12" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.webp" alt="img-13" data-category="creatures"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.webp" alt="img-14" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.webp" alt="img-15" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.webp" alt="img-16" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.webp" alt="img-17" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.webp" alt="img-18" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.webp" alt="img-19" data-category="courses"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.webp" alt="img-20" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.webp" alt="img-21" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.webp" alt="img-22" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.webp" alt="img-23" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-24.webp" alt="img-24" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-25.webp" alt="img-25" data-category="diving"/>
-            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.webp" alt="img-1" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.jpg" alt="img-1" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.jpg" alt="img-2" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.jpg" alt="img-3" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.jpg" alt="img-4" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.jpg" alt="img-5" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.jpg" alt="img-6" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.jpg" alt="img-7" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.jpg" alt="img-8" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.jpg" alt="img-9" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.jpg" alt="img-10" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.jpg" alt="img-11" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.jpg" alt="img-12" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.jpg" alt="img-13" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.jpg" alt="img-14" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.jpg" alt="img-15" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.jpg" alt="img-16" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.jpg" alt="img-17" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.jpg" alt="img-18" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.jpg" alt="img-19" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.jpg" alt="img-20" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.jpg" alt="img-21" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.jpg" alt="img-22" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.jpg" alt="img-23" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-24.jpg" alt="img-24" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-25.jpg" alt="img-25" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-26.jpg" alt="img-26" data-category="diving"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-27.jpg" alt="img-27" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-28.jpg" alt="img-28" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-29.jpg" alt="img-29" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-30.jpg" alt="img-30" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-31.jpg" alt="img-31" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-32.jpg" alt="img-32" data-category="courses"/>
           </ul>
           <button id="next-slide" class="slide-button material-symbols-rounded">
             chevron_right
@@ -744,13 +751,6 @@ if (isset($_SESSION['error_message'])) {
                 <strong>Phone:</strong> +94 71 581 2982<br>
                 <strong>Email:</strong> seasoulssrilanka@gmail.com<br>
               </p>
-              <div class="social-links mt-3">
-                <a href="https://youtube.com/@Salin989?si=LH0suNt3hLkvOlvt" class="youtube"><i class="bx bxl-youtube"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100064441372182&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/explore_the_ocean_with_sali?igsh=MWR4emVqem5naGw1ag==" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://wa.me/94715812982" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/@seasouls0" class="tiktok"><i class="bx bxl-tiktok"></i></a>
-              </div>
             </div>
           </div>
 
@@ -778,11 +778,14 @@ if (isset($_SESSION['error_message'])) {
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>However, if there are many people who do not know what I read, then I will read our great fault</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
+            <p>However, you can connect with our social media to get the latest updates</p>
+            <div class="social-links mt-3">
+                <a href="https://youtube.com/@Salin989?si=LH0suNt3hLkvOlvt" class="youtube"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064441372182&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/explore_the_ocean_with_sali?igsh=MWR4emVqem5naGw1ag==" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://wa.me/94715812982" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@seasouls0" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+              </div>
           </div>
 
         </div>

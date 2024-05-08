@@ -1241,7 +1241,7 @@ section {
   
   .gallery .slider-wrapper .image-list {
     display: grid;
-    grid-template-columns: repeat(25, 1fr);
+    grid-template-columns: repeat(50, 1fr);
     gap: 18px;
     font-size: 0;
     list-style: none;

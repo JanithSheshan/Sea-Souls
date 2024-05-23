@@ -21,10 +21,10 @@ if (isset($_SESSION['error_message'])) {
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Sea Souls | Diving Instructor</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="" name="Your Passionate PADI Scuba Diving Instructor in Sri Lanka">
+  <meta content="" name="PADI Scuba Diving Instructor Sri Lanka Scuba Diving Unawatuna Diving Nilaveli Trincomalee Dive Sites Hikkaduwa Diving Mirissa Scuba Adventures Experienced Dive Instructor Sri Lanka Passionate Scuba Guide Dive Courses Sri Lanka Adventure Diving Trips">
 
-  <meta property="og:title" content="Sea Souls | Diving Instructor">
+  <meta property="og:title" content="Sea Souls |Best Scuba Diving Instructor">
   <meta property="og:description" content="Dive into the depths with Salin, your expert diving instructor, and discover a world beneath the waves like never before. Whether you're a novice seeking guidance or a seasoned diver looking to enhance your skills, Salin provides tailored training and unforgettable underwater experiences. Join Salin on an adventure beneath the surface and unlock the wonders of the ocean together.">
   <meta property="og:image" content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp">
   <meta property="og:url" content="Sea Souls | Scuba Diving Instructor">
@@ -131,7 +131,7 @@ if (isset($_SESSION['error_message'])) {
           </div>
           
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-            <h3>Meet Sali: Your Passionate PADI Scuba Diving Instructor in Sri Lanka</h3>
+            <h3>Meet Sali, Your Passionate PADI Scuba Diving Instructor in Sri Lanka</h3>
             <p>Embark on an adventure beneath the waves with Sea Souls by Sali. Whether you're a beginner or an experienced diver, we offer comprehensive training and unforgettable diving experiences.</p>
     
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="10">
@@ -346,6 +346,9 @@ if (isset($_SESSION['error_message'])) {
             <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-30.jpg" alt="img-30" data-category="courses"/>
             <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-31.jpg" alt="img-31" data-category="courses"/>
             <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-32.jpg" alt="img-32" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-33.jpg" alt="img-33" data-category="creatures"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-34.jpg" alt="img-34" data-category="courses"/>
+            <img class="image-item" src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-35.jpg" alt="img-35" data-category="courses"/>
           </ul>
           <button id="next-slide" class="slide-button material-symbols-rounded">
             chevron_right
@@ -374,7 +377,7 @@ if (isset($_SESSION['error_message'])) {
           <h2>Testimonials</h2>
           <p>What our clients say</p>
         </div>
-        <div class="elfsight-app-b76d2501-9b18-44c0-9b57-b4dfba036725" data-elfsight-app-lazy></div>
+       <div class="elfsight-app-f50a22af-a9cc-41dc-b79f-5010b93f4942" data-elfsight-app-lazy></div>
         <!-- <div class="elfsight-app-c974434e-76f5-4eb5-b0ef-05ab4bc2408d" data-elfsight-app-lazy></div> -->
       </div>
     </section>

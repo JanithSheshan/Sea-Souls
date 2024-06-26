@@ -473,6 +473,21 @@ if (isset($_SESSION['error_message'])) {
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-35.jpg"
               alt="img-35" data-category="courses" />
+            <img class="image-item"
+              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-36.jpg"
+              alt="img-36" data-category="diving" />
+            <img class="image-item"
+              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-37.jpg"
+              alt="img-37" data-category="creatures" />
+            <img class="image-item"
+              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-38.jpg"
+              alt="img-38" data-category="creatures" />
+            <img class="image-item"
+              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-39.jpg"
+              alt="img-39" data-category="diving" />
+            <img class="image-item"
+              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-40.jpg"
+              alt="img-40" data-category="diving" />
           </ul>
           <button id="next-slide" class="slide-button material-symbols-rounded">
             chevron_right

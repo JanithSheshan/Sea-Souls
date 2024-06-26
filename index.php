@@ -19,7 +19,7 @@ if (isset($_SESSION['error_message'])) {
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sea Souls | Scuba Diving Instructor</title>
+  <title>Scuba Diving Instructor | Sea Souls Sri Lanka</title>
   <meta name="description" content="Your Passionate PADI Scuba Diving Instructor in Sri Lanka">
   <meta name="keywords"
     content="PADI Scuba Diving Instructor, Sri Lanka, Scuba Diving, Unawatuna, Diving, Nilaveli, Trincomalee, Dive Sites, Hikkaduwa, Diving, Mirissa, Scuba Adventures, Experienced Dive Instructor, Sri Lanka, Passionate Scuba Guide, Dive Courses, Sri Lanka, Adventure Diving Trips">

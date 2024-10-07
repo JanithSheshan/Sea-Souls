@@ -19,15 +19,12 @@ if (isset($_SESSION['error_message'])) {
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Scuba Diving Instructor | Sea Souls Sri Lanka</title>
-  <meta name="description" content="Your Passionate PADI Scuba Diving Instructor in Sri Lanka">
-  <meta name="keywords"
-    content="PADI Scuba Diving Instructor, Sri Lanka, Scuba Diving, Unawatuna, Diving, Nilaveli, Trincomalee, Dive Sites, Hikkaduwa, Diving, Mirissa, Scuba Adventures, Experienced Dive Instructor, Sri Lanka, Passionate Scuba Guide, Dive Courses, Sri Lanka, Adventure Diving Trips">
-  <meta property="og:title" content="Sea Souls | Best Scuba Diving Instructor">
-  <meta property="og:description"
-    content="Dive into the depths with Salin, your expert scuba diving instructor, and discover a world beneath the waves like never before. Whether you're a novice seeking guidance or a seasoned diver looking to enhance your skills, Salin provides tailored training and unforgettable underwater experiences. Join Salin on an adventure beneath the surface and unlock the wonders of the ocean together.">
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp">
+  <title>Scuba Diving | Best Diving Instructor in Sri Lanka - Sea Souls</title>
+  <meta name="description" content="Experience the best scuba diving in Sri Lanka with Sea Souls. Join our professional diving courses in Unawatuna, Trincomalee, and Mirissa for unforgettable underwater adventures.">
+  <meta name="keywords" content="scuba diving, diving Sri Lanka, best diving instructor, best scuba diving, diving course, diving Unawatuna, diving Trincomalee, diving Mirissa">
+  <meta property="og:title" content="Sea Souls | Best Scuba Diving Instructor in Sri Lanka">
+  <meta property="og:description" content="Explore the wonders of scuba diving in Sri Lanka with our expert diving instructor. Offering diving courses and guided dives in Unawatuna, Trincomalee, and Mirissa.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp">
   <meta property="og:url" content="https://seasoulsdiving.com/">
   <!-- Favicons -->
   <link href="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/favicon.webp" rel="icon">
@@ -105,7 +102,7 @@ if (isset($_SESSION['error_message'])) {
       <div class="row justify-content-between">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1>Sea Souls | <span> Diving Instructor</span></h1>
+            <h1>Sea Souls | <span> Scuba Diving in Sri Lanka with the Best Instructor</span></h1>
             <h2>Learn scuba diving, Explore the underwater world <br> with SALI <br>(OWSI #445838)</h2>
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto">Get Started</a>
@@ -277,7 +274,7 @@ if (isset($_SESSION['error_message'])) {
     <section id="divesite" class="divesite">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>Diving Areas</h2>
+          <h2>Explore the Best Diving Spots in Unawatuna, Trincomalee, and Mirissa</h2>
           <p>Explore Our Diving sites</p>
         </div>
 
@@ -527,7 +524,7 @@ if (isset($_SESSION['error_message'])) {
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Dive Courses</h2>
+          <h2>Diving Courses and Scuba Adventures for All Levels</h2>
           <p>Explore Our Dive Courses & Activities</p>
         </div>
 

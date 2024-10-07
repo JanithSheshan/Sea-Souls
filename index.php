@@ -111,7 +111,7 @@ if (isset($_SESSION['error_message'])) {
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="30">
           <img src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/hero-img.webp"
-            class="img-fluid animated" alt="Scuba Diving with Sali">
+            class="img-fluid animated" alt="Scuba Diving in Sri Lanka with Sali">
         </div>
       </div>
     </div>
@@ -206,7 +206,7 @@ if (isset($_SESSION['error_message'])) {
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
                 <img
                   src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Surfing.svg"
-                  alt="Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
+                  alt="Scuba Diving in Sri Lanka with Sali Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
                 <h3>Surfing...</h3>
               </div>
               <span class="popuptext" id="myPopup2">Surfing involves riding waves on a board, requiring skillful balance
@@ -223,7 +223,7 @@ if (isset($_SESSION['error_message'])) {
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
                 <img
                   src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Diving%20Tours.svg"
-                  alt="Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
+                  alt="Scuba Diving in Sri Lanka with Sali Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
                 <h3>Diving Tours...</h3>
               </div>
               <span class="popuptext" id="myPopup3">Diving tours provide guided exploration of underwater realms,
@@ -240,7 +240,7 @@ if (isset($_SESSION['error_message'])) {
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
                 <img
                   src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Fun%20Diving.svg"
-                  alt="Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
+                  alt="Scuba Diving in Sri Lanka with Sali Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
                 <h3>Fun Diving...</h3>
               </div>
               <span class="popuptext" id="myPopup1">Fun diving is recreational underwater exploration for certified
@@ -257,7 +257,7 @@ if (isset($_SESSION['error_message'])) {
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="5">
                 <img
                   src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/722915ad3c8904c03872716de5d329eed9fda3f5/svg/Diving%20Courses.svg"
-                  alt="Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
+                  alt="Scuba Diving in Sri Lanka with Sali Fun Diving" style="color: #ffbb2c; width: auto; height: 50px;" />
                 <h3>Diving Courses...</h3>
               </div>
               <span class="popuptext" id="myPopup4">Diving courses provide essential skills and knowledge under
@@ -367,124 +367,124 @@ if (isset($_SESSION['error_message'])) {
           <ul class="image-list">
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.jpg"
-              alt="img-1" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-1" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.jpg"
-              alt="img-2" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-2" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.jpg"
-              alt="img-3" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-3" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.jpg"
-              alt="img-4" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-4" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.jpg"
-              alt="img-5" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-5" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.jpg"
-              alt="img-6" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-6" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.jpg"
-              alt="img-7" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-7" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.jpg"
-              alt="img-8" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-8" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.jpg"
-              alt="img-9" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-9" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.jpg"
-              alt="img-10" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-10" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.jpg"
-              alt="img-11" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-11" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.jpg"
-              alt="img-12" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-12" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.jpg"
-              alt="img-13" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-13" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.jpg"
-              alt="img-14" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-14" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.jpg"
-              alt="img-15" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-15" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.jpg"
-              alt="img-16" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-16" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.jpg"
-              alt="img-17" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-17" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.jpg"
-              alt="img-18" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-18" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.jpg"
-              alt="img-19" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-19" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.jpg"
-              alt="img-20" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-20" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.jpg"
-              alt="img-21" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-21" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.jpg"
-              alt="img-22" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-22" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.jpg"
-              alt="img-23" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-23" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-24.jpg"
-              alt="img-24" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-24" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-25.jpg"
-              alt="img-25" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-25" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-26.jpg"
-              alt="img-26" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-26" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-27.jpg"
-              alt="img-27" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-27" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-28.jpg"
-              alt="img-28" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-28" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-29.jpg"
-              alt="img-29" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-29" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-30.jpg"
-              alt="img-30" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-30" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-31.jpg"
-              alt="img-31" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-31" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-32.jpg"
-              alt="img-32" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-32" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-33.jpg"
-              alt="img-33" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-33" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-34.jpg"
-              alt="img-34" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-34" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-35.jpg"
-              alt="img-35" data-category="courses" />
+              alt="Scuba Diving in Sri Lanka with Sali img-35" data-category="courses" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-36.jpg"
-              alt="img-36" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-36" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-37.jpg"
-              alt="img-37" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-37" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-38.jpg"
-              alt="img-38" data-category="creatures" />
+              alt="Scuba Diving in Sri Lanka with Sali img-38" data-category="creatures" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-39.jpg"
-              alt="img-39" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-39" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-40.jpg"
-              alt="img-40" data-category="diving" />
+              alt="Scuba Diving in Sri Lanka with Sali img-40" data-category="diving" />
           </ul>
           <button id="next-slide" class="slide-button material-symbols-rounded">
             chevron_right

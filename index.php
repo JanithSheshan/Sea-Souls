@@ -19,39 +19,73 @@ if (isset($_SESSION['error_message'])) {
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Scuba Diving Instructor | Sea Souls Sri Lanka</title>
-  <meta name="description" content="Your Passionate PADI Scuba Diving Instructor in Sri Lanka">
-  <meta name="keywords"
-    content="PADI Scuba Diving Instructor, Sri Lanka, Scuba Diving, Unawatuna, Diving, Nilaveli, Trincomalee, Dive Sites, Hikkaduwa, Diving, Mirissa, Scuba Adventures, Experienced Dive Instructor, Sri Lanka, Passionate Scuba Guide, Dive Courses, Sri Lanka, Adventure Diving Trips">
-  <meta property="og:title" content="Sea Souls | Best Scuba Diving Instructor">
-  <meta property="og:description"
-    content="Dive into the depths with Salin, your expert scuba diving instructor, and discover a world beneath the waves like never before. Whether you're a novice seeking guidance or a seasoned diver looking to enhance your skills, Salin provides tailored training and unforgettable underwater experiences. Join Salin on an adventure beneath the surface and unlock the wonders of the ocean together.">
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp">
+
+  <title>Sea Souls | PADI Scuba Diving Courses in Sri Lanka - Unawatuna, Trincomalee & Mirissa</title>
+
+  <meta name="description" content="Join Sea Souls, a top-rated PADI scuba diving school in Sri Lanka. Explore coral reefs, wrecks, and marine life with expert training in Unawatuna, Trincomalee, and Mirissa.">
+  <meta name="keywords" content="scuba diving Sri Lanka, PADI diving courses, diving instructor Sri Lanka, Unawatuna diving, Trincomalee diving, Mirissa diving, wreck diving, deep diving, night diving, Nitrox, underwater photography, Sea Souls diving, best diving in Sri Lanka, scuba certification Sri Lanka">
+  <meta name="author" content="Sea Souls by Sali">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sea Souls | PADI Scuba Diving Courses in Sri Lanka">
+  <meta property="og:description" content="Learn scuba diving or improve your skills with a certified PADI instructor in Sri Lanka. Dive into Unawatuna, Trincomalee, and Mirissa's stunning underwater world.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp">
   <meta property="og:url" content="https://seasoulsdiving.com/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sea Souls | Scuba Diving in Sri Lanka">
+  <meta name="twitter:description" content="Experience the best scuba diving in Sri Lanka with expert PADI instruction at Sea Souls. Courses, fun dives & specialty training.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp">
+
   <!-- Favicons -->
   <link href="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/favicon.webp" rel="icon">
-  <link href="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/apple-touch-icon.webp"
-    rel="apple-touch-icon">
+  <link href="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/apple-touch-icon.webp" rel="apple-touch-icon">
+
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Montserrat:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Sea Souls Scuba Diving",
+    "url": "https://seasoulsdiving.com/",
+    "logo": "https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/logo.webp",
+    "description": "PADI-certified scuba diving center offering beginner to advanced courses and specialty dives in Sri Lanka.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "LK"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Sri Lanka"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Sali"
+    }
+  }
+  </script>
 </head>
+
 
 <body>
   <!-- ======= Header ======= -->
@@ -105,8 +139,9 @@ if (isset($_SESSION['error_message'])) {
       <div class="row justify-content-between">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1>Sea Souls | <span> Diving Instructor</span></h1>
-            <h2>Learn scuba diving, Explore the underwater world <br> with SALI <br>(OWSI #445838)</h2>
+            <h1>Sea Souls | <span> Scuba Diving in Sri Lanka with the Best Instructor</span></h1>
+            <h2>Learn scuba diving, Explore the underwater world <br> with SALI <br>(Master Scuba Diver Trainer
+              Instructor - MSDT #445838)</h2>
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto">Get Started</a>
             </div>
@@ -186,12 +221,67 @@ if (isset($_SESSION['error_message'])) {
                 every dive unforgettable.</p>
             </div>
 
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="40">
+              <div class="icon"><i class='bx bx-dna'></i></div>
+              <h4 class="title">Specialty Instructor</h4>
+              <p class="description">In addition to core diving courses, I’m also certified to teach several PADI
+                specialties to help you expand your underwater skills. Explore deep diving, discover hidden wrecks,
+                navigate the mysteries of night diving, breathe enriched air (Nitrox), or capture stunning underwater
+                photography—whatever your passion, there's a specialty course tailored for you.</p>
+            </div>
+
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
+
+    <!-- ======= YouTube Section ======= -->
+    <section class="youtube-section section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>YouTube</h2>
+          <p>Discover Sali's latest dives, tips, and tutorials on our YouTube channel!</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <!-- YouTube Channel Button -->
+          <div class="col-12 text-center mb-4">
+            <a href="https://www.youtube.com/@Salin989" target="_blank" class="btn btn-success btn-lg">
+              <i class="bi bi-youtube me-2"></i> Visit Our YouTube Channel
+            </a>
+          </div>
+
+          <!-- Embedded Video 1 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/tt9Q9ZGL57U" title="Scuba Diving Adventure"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!-- Embedded Video 2 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/DJ7ClcyxMB0?si=lexe10l7dhbCuc2C" title="Another Dive"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!-- Embedded Video 3 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/M9Rv-NEuFQw?si=8lKFN2bopuR7L89f" title="Explore With Sali"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ======= End YouTube Section ======= -->
 
     <!-- ======= services Section ======= -->
     <section id="services" class="features">
@@ -277,7 +367,7 @@ if (isset($_SESSION['error_message'])) {
     <section id="divesite" class="divesite">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>Diving Areas</h2>
+          <h2>Diving Spots</h2>
           <p>Explore Our Diving sites</p>
         </div>
 
@@ -368,72 +458,28 @@ if (isset($_SESSION['error_message'])) {
             chevron_left
           </button>
           <ul class="image-list">
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-1.jpg"
-              alt="img-1" data-category="creatures" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-2.jpg"
-              alt="img-2" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-3.jpg"
-              alt="img-3" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-4.jpg"
-              alt="img-4" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-5.jpg"
-              alt="img-5" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-6.jpg"
-              alt="img-6" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-7.jpg"
-              alt="img-7" data-category="creatures" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-8.jpg"
-              alt="img-8" data-category="diving" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-9.jpg"
-              alt="img-9" data-category="diving" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-10.jpg"
-              alt="img-10" data-category="diving" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-11.jpg"
-              alt="img-11" data-category="creatures" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-12.jpg"
-              alt="img-12" data-category="diving" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-13.jpg"
-              alt="img-13" data-category="creatures" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-14.jpg"
-              alt="img-14" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-15.jpg"
-              alt="img-15" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-16.jpg"
-              alt="img-16" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-17.jpg"
-              alt="img-17" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-18.jpg"
-              alt="img-18" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-19.jpg"
-              alt="img-19" data-category="courses" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-20.jpg"
-              alt="img-20" data-category="diving" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-21.jpg"
-              alt="img-21" data-category="diving" />
-            <img class="image-item"
-              src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-22.jpg"
-              alt="img-22" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (13).jpg" alt="img-1" data-category="creatures" />
+            <img class="image-item" src="assets\images\diving- (2).jpg" alt="img-2" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (3).jpg" alt="img-3" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (22).jpg" alt="img-4" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (6).jpg" alt="img-5" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (1).jpg" alt="img-6" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (16).jpg" alt="img-7" data-category="creatures" />
+            <img class="image-item" src="assets\images\diving- (10).jpg" alt="img-8" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (7).jpg" alt="img-9" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (11).jpg" alt="img-10" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (19).jpg" alt="img-11" data-category="creatures" />
+            <img class="image-item" src="assets\images\diving- (4).jpg" alt="img-12" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (14).jpg" alt="img-13" data-category="creatures" />
+            <img class="image-item" src="assets\images\diving- (5).jpg" alt="img-14" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (8).jpg" alt="img-15" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (21).jpg" alt="img-16" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (20).jpg" alt="img-17" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (18).jpg" alt="img-18" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (12).jpg" alt="img-19" data-category="courses" />
+            <img class="image-item" src="assets\images\diving- (9).jpg" alt="img-20" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (15).jpg" alt="img-21" data-category="diving" />
+            <img class="image-item" src="assets\images\diving- (17).jpg" alt="img-22" data-category="diving" />
             <img class="image-item"
               src="https://raw.githubusercontent.com/JanithSheshan/Sea-Sauls-images/main/img/gallery/gallery-23.jpg"
               alt="img-23" data-category="diving" />
@@ -527,7 +573,7 @@ if (isset($_SESSION['error_message'])) {
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Dive Courses</h2>
+          <h2>Courses & Adventures</h2>
           <p>Explore Our Dive Courses & Activities</p>
         </div>
 
